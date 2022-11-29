@@ -1,0 +1,322 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12539834900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verifying FlyCatch Home",
+        "description": "",
+        "id": "verifying-the-flycatch-home-page;verifying-flycatch-home",
+        "after": [
+          {
+            "result": {
+              "duration": 128700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 710100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the FlyCatch page",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userIsOnTheFlyCatchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441987400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should navigate to Company CSS Dropdown",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldNavigateToCompanyCSSDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2607898700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Contact_Us",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldClickContact_Us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32948500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should verify after Navigated to Contact_Us",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldVerifyAfterNavigatedToContact_Us()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8916639000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verifying FlyCatch Home using JavaScript",
+        "description": "",
+        "id": "verifying-the-flycatch-home-page;verifying-flycatch-home-using-javascript",
+        "after": [
+          {
+            "result": {
+              "duration": 40800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on the FlyCatch page",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userIsOnTheFlyCatchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307744100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should navigate to Company CSS Dropdown using JS",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldNavigateToCompanyCSSDropdownUsingJS()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4395888300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should click Contact_Us using JS",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldClickContact_UsUsingJS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14896900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should verify after Navigated to Contact_Us",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldVerifyAfterNavigatedToContact_Us()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the FlyCatch Home page",
+    "description": "",
+    "id": "verifying-the-flycatch-home-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TC1_Home_Page.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11647610700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verifying LET�S TALK!request",
+        "description": "",
+        "id": "verifying-the-flycatch-contact-us-page;verifying-let�s-talk-request;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 25900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 61900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the FlyCatch page",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userIsOnTheFlyCatchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186630900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should navigate to Company CSS Dropdown",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldNavigateToCompanyCSSDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15344230300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click Contact_Us",
+            "match": {
+              "location": "TC1_Home_Page_Steps.userShouldClickContact_Us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13209481600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should Send Message using \"Anish\",\"18anishs@gmail.com\",\"8098860918\",\"India\",\"FlyCatchTestAutomation\" and \"Please_Ignore_Automated_message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anish\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"18anishs@gmail.com\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"8098860918\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"FlyCatchTestAutomation\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"Please_Ignore_Automated_message\"",
+                  "offset": 110
+                }
+              ],
+              "location": "TC2_ContactUs_Page_Steps.userShouldSendMessageUsingAnd(String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should verify after success message \"We\u0027ve received your request!! Will will reach you out very soon!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"We\u0027ve received your request!! Will will reach you out very soon!!\"",
+                  "offset": 41
+                }
+              ],
+              "location": "TC2_ContactUs_Page_Steps.userShouldVerifyAfterSuccessMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the FlyCatch Contact_Us page",
+    "description": "",
+    "id": "verifying-the-flycatch-contact-us-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TC2_ContactUs_Page.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
